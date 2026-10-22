@@ -51,14 +51,33 @@ Some useful questions this dashboard can help answer include:
 - Which individual earthquakes had the largest recorded magnitude?
 - How does earthquake activity differ across broader global regions?
 
-<iframe
-  src="https://public.tableau.com/views/DSIEarthquakeDashboard-GD/DSIEarthquakeTracker?:showVizHome=no&:embed=true"
-  width="100%"
-  height="900"
-  style="border:0;"
-  loading="lazy">
-</iframe>
+<div class="tableauPlaceholder" id="viz1792648161639" style="position:relative">
+  <noscript>
+    <img alt="DSI Earthquake Tracker"
+      src="https://public.tableau.com/static/images/DS/DSIEarthquakeDashboard-GD/DSIEarthquakeTracker/1.png" />
+  </noscript>
+  <object class="tableauViz" style="display:none;">
+    <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+    <param name="embed_code_version" value="3" />
+    <param name="site_root" value="" />
+    <param name="name" value="DSIEarthquakeDashboard-GD/DSIEarthquakeTracker" />
+    <param name="tabs" value="no" />
+    <param name="toolbar" value="yes" />
+    <param name="filter" value="publish=yes" />
+  </object>
+</div>
 
+<script type="text/javascript">
+  var divElement = document.getElementById("viz1792648161639");
+  var vizElement = divElement.getElementsByTagName("object")[0];
+
+  vizElement.style.width = "100%";
+  vizElement.style.height = "900px";
+
+  var scriptElement = document.createElement("script");
+  scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
 ___
 
 # 03. Insights <a name="insights"></a>
